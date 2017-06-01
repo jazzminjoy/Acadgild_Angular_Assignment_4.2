@@ -145,7 +145,7 @@ console.log(sheldon.move()); // Sheldon the Snake slithered 57 feet.
 console.log(sheldon.makeSound()); // With its forked tongue ... says sssss.
 console.log(sheldon.poisonMsg()); // ... is poisonous? true
 
-// 2st extension, change defaults, add isPoisonous, modify makeSound()
+// 2st extension, change defaults, pounceDistance,, modify makeSound()
 
 var Tiger = function (_Animal2) {
     _inherits(Tiger, _Animal2);
@@ -300,6 +300,6 @@ console.log("\n*********************************************************");
 var tabitha = new Turtle(); // Create new instance
 tabitha.name = "Tabitha the Turtle"; // Override one default propert
 console.log(tabitha); // Display all properties and methods
-console.log(tabitha.move()); // Tabitha the Turtle move 0 feet.
+console.log(tabitha.move()); // Tabitha the Turtle moved 0 feet.
 console.log(tabitha.makeSound()); // Tabitha the Turtle says nothing.
 console.log(tabitha.housePetMsg()); // ... is a house pet? true
